@@ -10,31 +10,31 @@ export default function Home() {
   }
   return (
     <div>
-      <section>
-        <div className="md:max-w-[80%] m-auto p-6">
-          <div className="hero md:flex items-center">
-            <Image src={heroImg} alt="alt" className="mt-[10rem] md:w-[900px] h-full m-auto" />
+      <section className="">
+        <div className="md:max-w-[80%] m-auto p-6 relative overflow-hidden">
+          <div className="hero md:flex items-center mt-[6rem] md:mt-[5.8rem]">
+            <Image src={heroImg} alt="alt" className="md:w-[900px] h-full m-auto" />
 
             <div className="socials hidden lg:flex flex-col items-center gap-2 ms-[60px] ">
-              <Link href="/">
+              <Link href="https://web.facebook.com/profile.php?id=61561081104975">
                 <Icon icon="ic:baseline-facebook" className='text-[#000000] text-[22px] hover:text-[#D00000] transition-all ease-in-out duration-300'></Icon>
               </Link>
               <div className='bg-[#000000] h-[60px] w-[.7px]'>
 
               </div>
-              <Link href="/">
+              <Link href="https://www.instagram.com/choplifeshawarma/">
                 <Icon icon="mdi:instagram" className='text-[#fff] bg-black rounded-full p-1 text-[22px] hover:bg-[#D00000] transition-all ease-in-out duration-300'></Icon>
               </Link>
               <div className='bg-[#000000] h-[60px] w-[.7px]'>
 
               </div>
-              <Link href="/">
+              <Link href="choplife@devemmy.com">
                 <Icon icon="ic:baseline-mail" className='text-[#000000] text-[22px] hover:text-[#D00000] transition-all ease-in-out duration-300'></Icon>
               </Link>
             </div>
           </div>
 
-          <div className="hero-text font-[400] lg:flex justify-between items-center lg:gap-[17rem] md:text-[14px] bg-transparent lg:relative -top-[70px]">
+          <div className="hero-text font-[400] lg:flex justify-between items-center lg:gap-[17rem] md:text-[14px] bg-transparent lg:absolute bottom-[120px] left-0 overflow-x-hidden">
             <p>
               We’re thrilled to announce that ChopLifeShawarma is almost here! Very soon, you’ll be able to enjoy the most delicious, juicy, and flavorful shawarmas in PH City.
             </p>
@@ -44,12 +44,12 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="coming-soon text-center mt-[10rem] lg:-mt-9 mb-4">
+          <div className="coming-soon text-center mt-[2.5rem] md:mt-[5rem] lg:mt-0">
             <div className="icons flex flex-col justify-center items-center my-3">
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px]" />
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px] delay-200" />
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px] delay-600 "/>
-              <p className="mt-3">COMING SOON</p>
+              <p className="mt-2">COMING SOON</p>
             </div>
           </div>
         </div>  
