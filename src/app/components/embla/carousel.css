@@ -1,0 +1,24 @@
+.embla {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .embla__viewport {
+    overflow: hidden;
+    /* touch-action: pan-x; */
+  }
+  
+  .embla__container {
+    display: flex;
+    /* min-width: 100%; */
+  }
+  
+  .embla__slide {
+    width: 100%;
+    margin: .5rem;
+    /* position: relative; */
+    border: 1px solid;
+    border-radius: 28.07px;
+    padding: 13px;
+  }
+  
