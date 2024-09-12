@@ -1,10 +1,10 @@
 import React from 'react'
-import MenuContent from './menuContent'
+import ProfileEdit from './ProfileEdit'
 
 export default function page() {
   return (
     <div>
-      <MenuContent />
+      <ProfileEdit />
     </div>
   )
 }

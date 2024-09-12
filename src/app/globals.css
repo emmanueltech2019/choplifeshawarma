@@ -26,3 +26,9 @@ body{
     background-repeat: no-repeat;
     background-blend-mode: color;
 }
+
+/* .bar::before{
+    content: url('./components/img/loader.png');
+    position: absolute; 
+    transform: translateX(-50%) translateY(-100%);
+} */
