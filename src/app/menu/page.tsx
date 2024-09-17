@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuContent from './menuContent'
+import MenuContent from './MenuContent'
 
 export default function page() {
   return (
