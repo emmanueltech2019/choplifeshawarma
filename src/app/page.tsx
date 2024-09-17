@@ -23,6 +23,8 @@ export default function Home() {
 
               </div> 
               <Link href="https://www.instagram.com/choplifeshawarma/">
+
+              
                 <Icon icon="mdi:instagram" className='text-[#fff] bg-black rounded-full p-1 text-[22px] hover:bg-[#D00000] transition-all ease-in-out duration-300'></Icon>
               </Link>
               <div className='bg-[#000000] h-[60px] w-[.7px]'>
