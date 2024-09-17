@@ -2,8 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
+    --orange-gradient: linear-gradient(#D00000, #6A0000);
     overflow-x: hidden;
     width: 100%;
     max-width: 100%;
 }
+
+.band-img{
+    background: url('./components/img/band.png');
+    background-position: right -10px;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+}
+.eatShawama-img{
+    background: url('./components/img/eatShawama.png');
+    background-position: right center;
+    background-size: auto 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+}
+
+/* .bar::before{
+    content: url('./components/img/loader.png');
+    position: absolute; 
+    transform: translateX(-50%) translateY(-100%);
+} */

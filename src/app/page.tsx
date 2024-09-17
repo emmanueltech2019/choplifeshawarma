@@ -21,8 +21,10 @@ export default function Home() {
               </Link>
               <div className='bg-[#000000] h-[60px] w-[.7px]'>
 
-              </div>
+              </div> 
               <Link href="https://www.instagram.com/choplifeshawarma/">
+
+              
                 <Icon icon="mdi:instagram" className='text-[#fff] bg-black rounded-full p-1 text-[22px] hover:bg-[#D00000] transition-all ease-in-out duration-300'></Icon>
               </Link>
               <div className='bg-[#000000] h-[60px] w-[.7px]'>
@@ -34,7 +36,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-text font-[400] lg:flex justify-between items-center lg:gap-[17rem] md:text-[14px] bg-transparent lg:absolute bottom-[120px] left-0 overflow-x-hidden">
+          <div className="hero-text font-[400] lg:flex justify-between items-center lg:gap-[17rem] md:text-[14px] bg-transparent lg:absolute bottom-[60px] left-0 overflow-x-hidden">
             <p>
               We’re thrilled to announce that ChopLifeShawarma is almost here! Very soon, you’ll be able to enjoy the most delicious, juicy, and flavorful shawarmas in PH City.
             </p>
@@ -44,14 +46,14 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="coming-soon text-center mt-[2.5rem] md:mt-[5rem] lg:mt-0">
+          {/* <div className="coming-soon text-center mt-[2.5rem] md:mt-[5rem] lg:mt-0">
             <div className="icons flex flex-col justify-center items-center my-3">
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px]" />
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px] delay-200" />
               <Icon icon="ep:arrow-up" className="animate-bounce -m-1 text-[20px] delay-600 "/>
               <p className="mt-2">COMING SOON</p>
             </div>
-          </div>
+          </div> */}
         </div>  
       </section>
     </div>
